@@ -5,13 +5,13 @@ body{
     line-height: 1.4;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 18px;
-    background-color: #f5f7f7;
+    background-color: #55b7f7;
     color: rgba(0,0,0,.75);
     letter-spacing: 0.5px;
 }
 section{
     padding: 20px;
-    background-color: #ffffff;
+    background-color: #c3ff9a;
     margin: 30px 0;
     box-shadow: 1px 1px 10px 1px rgba(0,0,0,.4);
 }
@@ -52,7 +52,7 @@ h1, h2{
 }
 .moods p::first-letter{
     text-transform: uppercase;
-    color: #ffb619;
+    color: #ff2242;
     font-size: x-large;
 }
 ul li, ol li{
@@ -108,7 +108,7 @@ section.moods p{
 .lessons q{
     display: none;
     font-style: italic;
-    color: #008000;
+    color: #ff2242;
     font-size: medium;
 }
 .lessons li:hover q{
