@@ -1,23 +1,52 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- https://www.avanderlee.com/ -->
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/home-page.css" rel="stylesheet"/>
+    <link href="css/home-main.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
     <title>Aminjoni Abdullozoda</title>
 </head>
 <body>
-<img src="https://scontent.ffod1-1.fna.fbcdn.net/v/t1.0-9/75398401_2492991634131887_1394522576172089344_o.jpg?_nc_cat=104&_nc_sid=09cbfe&_nc_eui2=AeEcpvlATXgLXZolDNPeevS64RekgA1K9hCzr1h7PjtobedFfrr51YSo5pVODFfjlX0Z0yaWmGhZpp-i0aKU8DU8QoFYOnME_pxNdQ0nMHSSkg&_nc_ohc=EP-i0diTqdkAX9NzAea&_nc_ht=scontent.ffod1-1.fna&oh=91cb7cdfbd6608f38b2d7ff10f5798ea&oe=5E9F4663"
-     width="150" height="150" alt= "Profile Picture" >
-<h3>Aminjoni Abdullozoda</h3>
-<ul>
-    <li><a href="https://aminplusplus.github.io/">W1D1-Homepage</a></li>
-    <li><a href="aboutme.html">About me</a></li>
-</ul>
-
-
-    <a href="http://validator.w3.org/check?uri=https://aminplusplus.github.io/"> <img
-            src="http://mumstudents.org/cs472/2014-09/images/w3c-html.png"
-            alt="html validator"/></a>
+    <header id="master-head">
+        <nav class = "nav">
+            <div>
+                <ul class = "menu">
+                    <li>ALL POST</li>
+                    <li>ABOUT</li>
+                    <li>SPONSORSHIP</li>
+                </ul> 
+            </div>
+        </nav>
+        
+        <div class="verticalHeader">
+             <img src="https://avatars1.githubusercontent.com/u/30694948?s=460&u=db7d0a535e3ccd24bbbe3648ecf00aa0b6043936&v=4" class="profilePic" alt="">
+            <h2>Aminjoni Abdullozoda</h2>
+             <h2>(Amin)</h2>
+          
+        <div class="socialIcons">
+            <a target="_blank" href="https://twitter.com/AminjoniA" class="fa fa-twitter"></a>
+            <a target="_blank" href="https://github.com/AminPlusPlus" class="fa fa-github"></a>
+            <a target="_blank" href = "https://www.linkedin.com/in/aminjoni-abdullozoda-28736a10a/" class="fa fa-linkedin"></a>
+        </div>
+           
+               
+        </div>
+    </header>
+    <main id="content">
+        <h2>Recent Posts</h2>
+        <hr/>
+        <div id="medium-widget"></div>
+        <script src="https://medium-widget.pixelpoint.io/widget.js"></script>
+        <script>MediumWidget.Init({renderTo: '#medium-widget', params: {"resource":"https://medium.com/@amin030296/responsive-intro-screen-flutter-bf96666629d9","postsPerLine":2,"limit":4,"picture":"small","fields":["description","author","claps","publishAt"],"ratio":"original"}})</script>
+    </main>
+    
+    <footer>
+        <p>Copyright © 2020</p>
+        <p>All Right Reserved</p>
+    </footer>
 
 </body>
-
 </html>
