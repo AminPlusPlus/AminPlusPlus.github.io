@@ -8,7 +8,13 @@ body {
 }
 h2 {
   margin: 0;
-  font-weight: 100;
+  font-weight: 300;
+  color: white;
+}
+
+h3 {
+  color: white;
+  font-weight: 600;
 }
 
 #master-head {
@@ -56,24 +62,22 @@ h2 {
   padding: 10;
   font-size: 2em;
 }
-.socialIcons >a:visited {
-    color:white;
-  }
+.socialIcons > a:visited {
+  color: white;
+}
 .socialIcons > a:link {
   text-decoration: none;
 }
 .socialIcons > a:hover {
-    color: white;
+  color: white;
   text-decoration: none;
 }
 
-footer{
+footer {
   position: fixed;
   bottom: 0;
   color: white;
-  background-color:  rgb(0, 122, 255);
+  background-color: rgb(0, 122, 255);
   width: 100%;
   text-align: center;
 }
-
-
